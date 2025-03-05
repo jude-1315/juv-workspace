@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "juv-ionic": {
+      "integrations": {
+        "capacitor": {}
+      },
+      "root": "projects/juv-ionic",
+      "sourceRoot": "projects/juv-ionic/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {}
+    }
+  }
+}
