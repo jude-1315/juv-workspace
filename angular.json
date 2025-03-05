@@ -95,6 +95,16 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/juv-base/**/*.ts",
+              "projects/juv-base/**/*.html"
+            ],
+            "eslintConfig": "projects/juv-base/eslint.config.js"
+          }
         }
       }
     },
@@ -502,6 +512,16 @@
             "production": {
               "browserTarget": "juv-ionic:build:production"
             }
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/juv-ionic/**/*.ts",
+              "projects/juv-ionic/**/*.html"
+            ],
+            "eslintConfig": "projects/juv-ionic/eslint.config.js"
           }
         }
       }
